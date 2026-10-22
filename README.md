@@ -1,10 +1,10 @@
 <div align="center">
 
-# ?? idea-to-blueprint
+# üìê idea-to-blueprint
 
 ### Turn raw ideas into implementation-ready product blueprints
 
-**An AI agent skill that conducts adaptive product interviews and generates six professionally structured planning documents ó fully traceable, cross-reviewed, and milestone-gated.**
+**An AI agent skill that conducts adaptive product interviews and generates six professionally structured planning documents ‚Äî fully traceable, cross-reviewed, and milestone-gated.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -16,16 +16,16 @@
 
 </div>
 
-## ?? What It Does
+## üéØ What It Does
 
 **idea-to-blueprint** is a reusable agent skill that transforms a rough product idea, user request, or existing codebase into a **complete, implementation-ready product blueprint** through:
 
-1. ??? **Adaptive Interview** ó Context-aware, conversational product discovery (not a questionnaire dump)
-2. ?? **Specialist Agents** ó Dedicated roles for PRD, architecture, UX, data, and planning
-3. ?? **Cross-Document Review** ó Independent consistency checks with traceability
-4. ?? **Milestone-Gated Engineering** ó Thin vertical slices with demo gates and rollback paths
+1. üó£Ô∏è **Adaptive Interview** ‚Äî Context-aware, conversational product discovery (not a questionnaire dump)
+2. ü§ñ **Specialist Agents** ‚Äî Dedicated roles for PRD, architecture, UX, data, and planning
+3. üîç **Cross-Document Review** ‚Äî Independent consistency checks with traceability
+4. üö¶ **Milestone-Gated Engineering** ‚Äî Thin vertical slices with demo gates and rollback paths
 
-## ?? Generated Documents
+## üìö Generated Documents
 
 | # | Document | What It Covers |
 |---|----------|---------------|
@@ -38,35 +38,35 @@
 
 **Plus control artifacts:** Product Brief, Decision Log, Traceability Matrix, and Consistency Report.
 
-## ??? How It Works
+## ‚öôÔ∏è How It Works
 
-`
+```
 +----------------------------------------------------------+
-¶                    idea-to-blueprint                     ¶
-+----------------------------------------------------------¶
-¶                                                          ¶
-¶  Gate 0  ?  Intake & Context Inspection                  ¶
-¶  Gate 1  ?  Adaptive End-to-End Interview                ¶
-¶  Gate 2  ?  Canonical Product Brief & Decisions          ¶
-¶  Gate 3  ?  Specialist Agent Authoring (6 roles)         ¶
-¶  Gate 4  ?  Document Assembly                            ¶
-¶  Gate 5  ?  Cross-Document Integration Review            ¶
-¶  Gate 6  ?  Milestone-Gated Development Plan             ¶
-¶  Gate 7  ?  Delivery & Handoff                           ¶
-¶                                                          ¶
+‚îÇ                    idea-to-blueprint                     ‚îÇ
++----------------------------------------------------------‚îÇ
+‚îÇ                                                          ‚îÇ
+‚îÇ  Gate 0  ‚Üí  Intake & Context Inspection                  ‚îÇ
+‚îÇ  Gate 1  ‚Üí  Adaptive End-to-End Interview                ‚îÇ
+‚îÇ  Gate 2  ‚Üí  Canonical Product Brief & Decisions          ‚îÇ
+‚îÇ  Gate 3  ‚Üí  Specialist Agent Authoring (6 roles)         ‚îÇ
+‚îÇ  Gate 4  ‚Üí  Document Assembly                            ‚îÇ
+‚îÇ  Gate 5  ‚Üí  Cross-Document Integration Review            ‚îÇ
+‚îÇ  Gate 6  ‚Üí  Milestone-Gated Development Plan             ‚îÇ
+‚îÇ  Gate 7  ‚Üí  Delivery & Handoff                           ‚îÇ
+‚îÇ                                                          ‚îÇ
 +----------------------------------------------------------+
-`
+```
 
-## ? Quick Start
+## üöÄ Quick Start
 
 ### 1. Install
 
 Copy the `idea-to-blueprint` skill directory into the skill discovery folder used by your coding agent:
 
-`ash
+```bash
 # Example for agents using ~/.gemini/config/skills/
 cp -r idea-to-blueprint ~/.gemini/config/skills/idea-to-blueprint
-`
+```
 
 > **Note:** Installation paths vary by agent tool. Follow your agent's skill documentation.
 
@@ -79,29 +79,29 @@ Simply describe your product idea to your agent. The skill activates automatical
 - Ask for a **PRD, TRD, or technical blueprint**
 - Request planning for an **existing codebase**
 
-`
+```
 "I want to build a collaborative whiteboard app for remote teams 
 with real-time sync, export to PDF, and offline support."
-`
+```
 
 The agent will inspect context, interview you in manageable batches, and produce the full blueprint.
 
-## ?? Repository Structure
+## üóÇÔ∏è Repository Structure
 
-`
+```
 idea-to-blueprint/
 +-- SKILL.md                          # Core skill instructions (entry point)
 +-- README.md                         # This file
 +-- LICENSE                           # MIT License
 +-- CONTRIBUTING.md                   # Contribution guidelines
 +-- agents/
-¶   +-- README.md                     # Agent role definitions
+‚îÇ   +-- README.md                     # Agent role definitions
 +-- references/
-¶   +-- interview-playbook.md         # Interview phases & completion checklist
-¶   +-- agent-orchestration.md        # Specialist role assignments & scheduling
-¶   +-- document-contracts.md         # Six-document quality contracts
-¶   +-- milestone-gated-engineering.md # Delivery milestone playbook
-¶   +-- human-centered-quality-bar.md # Anti-slop UX quality review
+‚îÇ   +-- interview-playbook.md         # Interview phases & completion checklist
+‚îÇ   +-- agent-orchestration.md        # Specialist role assignments & scheduling
+‚îÇ   +-- document-contracts.md         # Six-document quality contracts
+‚îÇ   +-- milestone-gated-engineering.md # Delivery milestone playbook
+‚îÇ   +-- human-centered-quality-bar.md # Anti-slop UX quality review
 +-- templates/
     +-- AGENT_COMPLETION_TRIGGER.md   # Repository-level agent rule
     +-- PRD.template.md
@@ -111,9 +111,9 @@ idea-to-blueprint/
     +-- BACKEND-DATA-SCHEMA.template.md
     +-- DECISION-LOG.template.md
     +-- IMPLEMENTATION-PLAN.template.md
-`
+```
 
-## ??? Safety Model
+## üõ°Ô∏è Safety Model
 
 | Principle | Detail |
 |-----------|--------|
@@ -123,28 +123,28 @@ idea-to-blueprint/
 | **No secrets in docs** | Credentials and sensitive config stay out of generated artifacts |
 | **Honest verification** | Never claims tests, research, or agents ran unless they actually did |
 
-## ?? Compatibility
+## üß© Compatibility
 
 This skill is **agent-agnostic** and works with any AI coding assistant that supports the skill/instruction file pattern:
 
-- **Google Antigravity / Gemini** ó Place in `~/.gemini/config/skills/`
-- **Cursor** ó Place in `.cursor/skills/` or equivalent
-- **Claude Code / Codex** ó Use `AGENTS.md` trigger template (included)
-- **Other agents** ó Follow your agent's skill loading docs
+- **Google Antigravity / Gemini** ‚Äî Place in `~/.gemini/config/skills/`
+- **Cursor** ‚Äî Place in `.cursor/skills/` or equivalent
+- **Claude Code / Codex** ‚Äî Use `AGENTS.md` trigger template (included)
+- **Other agents** ‚Äî Follow your agent's skill loading docs
 
-## ?? Contributing
+## ü§ù Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## ?? License
+## üìú License
 
-This project is licensed under the **MIT License** ó see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** ‚Äî see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**Built with ?? by [@inov8ing](https://github.com/inov8ing)**
+**Built with ‚ù§Ô∏è by [@inov8ing](https://github.com/inov8ing)**
 
 *Stop guessing. Start blueprinting.*
 
